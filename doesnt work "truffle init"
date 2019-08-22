@@ -1,0 +1,17 @@
+hYuweideMacBook-Air:abcd yuwei$ truffle version
+Truffle v4.1.4 (core: 4.1.4)
+Solidity v0.4.21 (solc-js)
+YuweideMacBook-Air:abcd yuwei$ truffle init
+Downloading...
+Error: Truffle Box at URL https://github.com/truffle-box/bare-box.git doesn't exist. If you believe this is an error, please contact Truffle support.
+    at Request._callback (/usr/local/lib/node_modules/truffle/build/webpack:/~/truffle-box/lib/utils/unbox.js:50:1)
+    at Request.self.callback (/usr/local/lib/node_modules/truffle/build/webpack:/~/request/request.js:186:1)
+    at Request.emit (events.js:198:13)
+    at Request.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/~/request/request.js:1163:1)
+    at Request.emit (events.js:198:13)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/truffle/build/webpack:/~/request/request.js:1085:1)
+    at Object.onceWrapper (events.js:286:20)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+YuweideMacBook-Air:abcd yuwei$ 
